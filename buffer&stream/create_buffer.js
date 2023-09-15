@@ -1,5 +1,9 @@
 const { Buffer } = require('node:buffer');
 
+/**
+ *  HOW TO CREATE BUFFER
+ */
+
 // Tao 1 buffer la 1 mang cac so 0, do dai = 3
 const buf1 = Buffer.alloc(3);
 console.log("buf1: ", buf1);
@@ -30,3 +34,4 @@ console.log("buf6: ", buf6);
 // Tao 1 buffer co content la cac byte latin-1 cho 1 string
 const buf7 = Buffer.from('tést', 'latin1');
 console.log("buf7: ", buf7);
+
